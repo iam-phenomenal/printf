@@ -50,7 +50,7 @@ If the program runs successfully, the **return value** is the amount of chars pr
 	
 2. Printing an integer number:
 	+ Use: `_printf("100 + 100 is equal to %d.", 200);`
-	+ Output: `10 + 10 is equal to 20.`
+	+ Output: `100 + 100 is equal to 200.`
 	
 3. Printing a binary, octal and hexadecimal:
 	+ Use: `_printf("10 in binary is [%b], in octal is [%o] and in hexadecimal is [%x]", 5, 5, 5);`
