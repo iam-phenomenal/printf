@@ -19,11 +19,11 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - Struct op
- *
+ * struct fmt - Entry
  * @fmt: The format.
  * @fn: The function associated.
- */
+ * Description: Struct op
+*/
 struct fmt
 {
 	char fmt;
@@ -32,11 +32,11 @@ struct fmt
 
 
 /**
- * typedef struct fmt fmt_t - Struct op
- *
+ * typedef struct fmt fmt_t - Entry
  * @fmt: The format.
  * @fm_t: The function associated.
- */
+ * Description: Struct op
+*/
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
